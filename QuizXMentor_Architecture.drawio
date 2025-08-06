@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="5.0" version="22.1.16">
+  <diagram name="QuizXMentor Architecture" id="arch">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <mxCell id="title" value="QuizXMentor Architecture" style="text;fontSize=20;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="300" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="frontend" value="Frontend Layer" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="1000" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="html" value="HTML Templates" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="180" height="80" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="css" value="CSS Styles" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="120" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="js" value="JavaScript" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="460" y="140" width="120" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="users" value="Users" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="620" y="140" width="100" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="admin" value="Admin" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="750" y="140" width="100" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="backend" value="Backend - Flask App" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="1000" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="auth" value="Authentication" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="120" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="quiz" value="Quiz Management" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="120" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="adminmod" value="Admin Features" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="120" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="files" value="File Management" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="120" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="security" value="Security" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="120" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="database" value="Database - MySQL" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="440" width="1000" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="userstable" value="users1" style="rounded=1;fillColor=#f0f0f0;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="120" y="500" width="150" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="questionstable" value="questions1" style="rounded=1;fillColor=#f0f0f0;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="300" y="500" width="150" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="answerstable" value="answers1" style="rounded=1;fillColor=#f0f0f0;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="480" y="500" width="150" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="features" value="Key Features" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="680" y="500" width="150" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="external" value="External Components" style="rounded=1;fillColor=#e6e6e6;strokeColor=#666666;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1000" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="excel" value="Excel Files" style="rounded=1;fillColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="docker" value="Docker" style="rounded=1;fillColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="270" y="680" width="100" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="cicd" value="CI/CD" style="rounded=1;fillColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="680" width="100" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="arrow1" value="" style="endArrow=classic;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="240" as="sourcePoint"/>
+            <mxPoint x="550" y="260" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="arrow2" value="" style="endArrow=classic;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="420" as="sourcePoint"/>
+            <mxPoint x="550" y="440" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
