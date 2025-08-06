@@ -32,7 +32,7 @@ pipeline {
         
         stage('Run Container') {
             steps {
-                sh 'docker run -d --name $CONTAINER_NAME -p $PORT:5000 --env-file /home/ubuntu/.env $IMAGE_NAME'
+                sh 'docker run -d --name $CONTAINER_NAME -p $PORT:5000 --env-file .env $IMAGE_NAME'
             }
         }
         
