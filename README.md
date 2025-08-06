@@ -28,4 +28,4 @@ A full-stack quiz application built with Flask, MySQL, HTML, CSS, and JavaScript
 
 ## Default Admin Account (quiz upload)
 - Email: admin@g.com
-- Password: admin124
+- Password: admin123
