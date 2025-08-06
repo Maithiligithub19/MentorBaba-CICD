@@ -40,7 +40,7 @@ pipeline {
             steps {
                 emailext (
                     subject: "QuizXMentor App Deployed Successfully!",
-                    body: "Your Flask Quiz App is deployed! http://ec2-43-204-141-56:${PORT}/",
+                    body: "Your Flask Quiz App is deployed! http://43.204.141.56:${PORT}/",
                     to: "${EMAIL}"
                 )
             }
